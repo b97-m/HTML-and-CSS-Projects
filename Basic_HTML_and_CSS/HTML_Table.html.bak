@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+		<link rel="stylesheet" type="text/css" href="CSS_Table.css">
+		<h1>List of some European countries</h1>
+		<table style="width:100%">
+			<tr>
+				<th>Name</th>
+				<th>Capital</th>
+				<th>Population</th>
+				<th>Language(s)</th>
+				
+			</tr>
+			<tr>
+				<td>Poland</td>
+				<td>Warsaw</td>
+				<td>38,422,346</td>
+				<td>Polish</td>
+			</tr>
+			<tr>
+				<td>Romania</td>
+				<td>Bucharest</td>
+				<td>19,638,000</td>
+				<td>Romanian</td>
+			</tr>
+		</table>
+	</body>
+</html>

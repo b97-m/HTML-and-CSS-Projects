@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome to Hogwarts!</title>
+	</head>
+	
+	<body>
+	
+		<!-- NAVIGATION -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#videos"><li>VIDEOS</li></a>
+					<a href="#contact"><li>CONTACT</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAVIGATION -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<h1>Hogwarts School of Witchcraft and Wizardry</h1>
+					<blockquote>
+					A huge, rambling, quite scary-looking castle, with a jumble of towers and battlements. Like the Weasleys' house, it isn't a building that Muggles could build, because it is supported by magic.</p>
+					</blockquote>
+					<span>~J.K.Rowling</span><br>
+					
+					<img src=".\Images\hp_hogwart.jpg" alt="Hogwart" width="420" height="315">
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Hogwart's Houses</h1>
+					<p>
+						Founded in the 10th century by Godric Gryffindor, Rowena Ravenclaw, Helga Hufflepuff and Salazar Slytherin, Hogwarts was established in the Highlands of Scotland to educate young wizards and witches as well as to keep students safe from muggle persecution.
+					</P>
+				<div>
+				
+					<!-- PHOTO CONTAINER 1 -->
+					<div>
+						<div>
+							<img src=".\Images\hp_gryffindor.jpg" alt="Gryffindor">
+							<div>
+								<h3>Gryffindor</h3>
+								<p>Gryffindor values courage, bravery, nerve, and chivalry.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 1 -->
+					
+					<!-- PHOTO CONTAINER 2 -->
+					<div>
+						<div>
+							<img src=".\Images\hp_hufflepuff.jpg" alt="Hufflepuff">
+							<div>
+								<h3>Hufflepuff</h3>
+								<p>Hufflepuff values hard work, patience, justice, and loyalty.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 2 -->
+					
+					<!-- PHOTO CONTAINER 3 -->
+					<div>
+						<div>
+							<img src=".\Images\hp_ravenclaw.jpg" alt="Ravenclaw">
+							<div>
+								<h3>Ravenclaw</h3>
+								<p>Ravenclaw values intelligence, learning, wisdom and wit.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 3 -->
+					
+					<!-- PHOTO CONTAINER 4 -->
+					<div>
+						<div>
+							<img src=".\Images\hp_slytherin.jpg" alt="Slytherin">
+							<div>
+								<h3>Slytherin</h3>
+								<p>Slytherin values ambition, cunning, leadership and resourcefulness.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 4 -->
+				</div>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+		
+		<!-- VIDEOS -->
+		<section>
+			<div id="videos">
+				<div>
+				
+					<!-- VIDEO CONTAINER 1 -->
+					<div>
+						<div>
+							<iframe width="420" height="315"
+							src="https://www.youtube.com/embed/CpXp1L7xB4o">
+							</iframe>
+							
+							<div>
+								<h3>Quidditch</h3>
+								<p>It is a dangerous but popular sport played by witches and wizards riding flying broomsticks.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END VIDEO CONTAINER 1 -->
+					
+					<!-- VIDEO CONTAINER 2 -->
+					<div>
+						<div>
+							<iframe width="420" height="315"
+							src="https://www.youtube.com/embed/HYkdwbPGnmQ">
+							</iframe>
+							
+							<div>
+								<h3>Hogsmeade</h3>
+								<p>It is the only settlement in Britain inhabited solely by wizards, witches, and other magical beings.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END VIDEO CONTAINER 2 -->
+				</div>
+			</div>
+		</section>
+		<!-- END VIDEOS -->
+		
+		<!-- CONTACT -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Are you interested in magic?</h1>
+					<div>
+						<h3>Start witchcarft this year!
+							<br>Reserve a place in our school today!
+						</h3>
+						<p>Please provide us with your basic contact information:</p>
+						
+						<div>
+							<form action"" method="post">
+								First name: <input class="rvsp" type="text"><br>
+								Last name: <input class="rvsp" type="text"><br>
+								Email address: <input class="rvsp" type="text"><br>
+								Phone number: <input class="rvsp" type="text"><br>
+								<div>
+									<input type="submit" value="Submit your request">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END CONTACT -->
+		
+		<!-- FOOTER -->
+		<div>
+			<h3>CONTACT US:</h3>
+			<p>Email: www.hogwarts.co.uk<br>
+			Address: Hogwarts Castle, Highlands, Scotland, Great Britain<br>
+			Phone: +44 7777 447744<br>
+			Instagram: &#64;hogwarts</p>
+		</div>
+		<!-- END FOOTER -->
+		
+	</body>
+</html>

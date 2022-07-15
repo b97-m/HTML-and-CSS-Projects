@@ -3,13 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Welcome to Hogwarts!</title>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
 	</head>
 	
 	<body>
 	
 		<!-- NAVIGATION -->
-		<div>
-			<div>
+		<div class="wrap">
+			<div class="menu">
 				<ul>
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
@@ -22,22 +23,19 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<h1>Hogwarts School of Witchcraft and Wizardry</h1>
-					<blockquote>
-					A huge, rambling, quite scary-looking castle, with a jumble of towers and battlements. Like the Weasleys' house, it isn't a building that Muggles could build, because it is supported by magic.</p>
-					</blockquote>
-					<span>~J.K.Rowling</span><br>
-					
-					<img src=".\Images\hp_hogwart.jpg" alt="Hogwart" width="420" height="315">
+			<div class="wrap">
+				<div class="background">
+					<img class="home-img" src="./Images/hp_hogwart.jpg" alt="Hogwart">
+						<div class="background-text">
+							<h1 class="title">Hogwarts School of <br> Witchcraft and Wizardry</h1>					
+						</div>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
+		<section class="wrap">
 			<div id="gallery">
 				<h1>Hogwart's Houses</h1>
 					<p>
@@ -46,8 +44,8 @@
 				<div>
 				
 					<!-- PHOTO CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo-block">
 							<img src=".\Images\hp_gryffindor.jpg" alt="Gryffindor">
 							<div>
 								<h3>Gryffindor</h3>
@@ -58,8 +56,8 @@
 					<!-- END PHOTO CONTAINER 1 -->
 					
 					<!-- PHOTO CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo-block">
 							<img src=".\Images\hp_hufflepuff.jpg" alt="Hufflepuff">
 							<div>
 								<h3>Hufflepuff</h3>
@@ -70,8 +68,8 @@
 					<!-- END PHOTO CONTAINER 2 -->
 					
 					<!-- PHOTO CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo-block">
 							<img src=".\Images\hp_ravenclaw.jpg" alt="Ravenclaw">
 							<div>
 								<h3>Ravenclaw</h3>
@@ -82,8 +80,8 @@
 					<!-- END PHOTO CONTAINER 3 -->
 					
 					<!-- PHOTO CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo-block">
 							<img src=".\Images\hp_slytherin.jpg" alt="Slytherin">
 							<div>
 								<h3>Slytherin</h3>
@@ -98,14 +96,14 @@
 		<!-- END GALLERY -->
 		
 		<!-- VIDEOS -->
-		<section>
+		<section class="wrap">
 			<div id="videos">
 				<div>
 					<h1>Videos</h1>
 				
 					<!-- VIDEO CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="video-block">
 							<iframe width="420" height="315"
 							src="https://www.youtube.com/embed/CpXp1L7xB4o">
 							</iframe>
@@ -119,8 +117,8 @@
 					<!-- END VIDEO CONTAINER 1 -->
 					
 					<!-- VIDEO CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="video-block">
 							<iframe width="420" height="315"
 							src="https://www.youtube.com/embed/HYkdwbPGnmQ">
 							</iframe>
@@ -138,7 +136,7 @@
 		<!-- END VIDEOS -->
 		
 		<!-- CONTACT -->
-		<section>
+		<section class="wrap">
 			<div id="contact">
 				<div>
 					<h1>Are you interested in magic?</h1>
@@ -166,7 +164,7 @@
 		<!-- END CONTACT -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div class="wrap footer">
 			<h3>CONTACT US:</h3>
 			<p>Email: www.hogwarts.co.uk<br>
 			Address: Hogwarts Castle, Highlands, Scotland, Great Britain<br>

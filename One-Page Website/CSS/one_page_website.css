@@ -1,0 +1,155 @@
+/* TEXT */
+
+html {
+    background: url('hp_hogwart.jpg') no-repeat center fixed;
+    padding: 20px 100px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: white;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+
+h3 {
+    font-size: 22px;
+}
+
+.title {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+/* HOME */
+
+.home-img {
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.home-img:hover {
+    opacity: 0.8;
+}
+
+.background {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.background-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    color: white;
+    
+}
+
+
+
+
+
+/* NAV */
+
+.menu {
+    font: bold;
+    text-align: center;
+}
+
+li {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 22px;
+    list-style: none;
+    background-color: rgb(235, 228, 228);
+    display: inline-block
+}
+
+li:hover {
+    background-color: rgb(221, 211, 211);
+    border: 2px solid black;
+}
+
+
+/* GALLERY */
+
+.wrap {
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.photo-container {
+    padding: 10px;
+    display: inline-block;
+}
+
+.photo-block {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px; 
+    max-width: 310px;
+    text-align: center;    
+}
+
+.video-block {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 425px;
+    text-align: center;
+}
+
+.photo-block:hover {
+    transition: transform .3s;
+    transform: scale(1.05)
+}
+
+/* FORM */
+
+input {
+    font-size: 20px;
+    width: 300px;
+    margin: 3px;
+    border: 1px dotted rgb(87, 75, 75);
+    border-radius: 7px;
+    
+}
+
+section {
+    padding: 50px;
+}
+
+.footer{
+    padding-left: 50px;
+}
